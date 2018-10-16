@@ -1,27 +1,32 @@
 {
-  "name": "imagemin-jpegtran",
-  "version": "5.0.2",
+  "name": "@dinamomx/imagemin-jpegtran",
+  "version": "5.0.3",
   "description": "jpegtran imagemin plugin",
   "license": "MIT",
   "repository": "imagemin/imagemin-jpegtran",
   "author": {
     "name": "Kevin Mårtensson",
     "email": "kevinmartensson@gmail.com",
-    "url": "github.com/kevva"
+    "url": "https://github.com/kevva"
   },
   "maintainers": [
     {
+      "name": "César Valadez",
+      "email": "cesar@wdinamo.com",
+      "url": "https://github.com/cesasol"
+    },
+    {
       "name": "Sindre Sorhus",
       "email": "sindresorhus@gmail.com",
-      "url": "sindresorhus.com"
+      "url": "https://sindresorhus.com"
     },
     {
       "name": "Shinnosuke Watanabe",
-      "url": "github.com/shinnn"
+      "url": "https://github.com/shinnn"
     }
   ],
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "scripts": {
     "test": "xo && ava"
