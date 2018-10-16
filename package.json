@@ -41,14 +41,14 @@
     "optimize"
   ],
   "dependencies": {
+    "@dinamomx/jpegtran-bin": "0.0.0-development",
     "exec-buffer": "^3.0.0",
-    "is-jpg": "^1.0.0",
-    "jpegtran-bin": "^3.0.0"
+    "is-jpg": "^2.0.0"
   },
   "devDependencies": {
-    "ava": "*",
+    "ava": "^1.0.0-rc.1",
     "is-progressive": "^3.0.0",
-    "pify": "^2.3.0",
+    "pify": "^4.0.0",
     "xo": "*"
   },
   "xo": {

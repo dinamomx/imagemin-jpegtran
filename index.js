@@ -1,7 +1,7 @@
 'use strict';
 const execBuffer = require('exec-buffer');
 const isJpg = require('is-jpg');
-const jpegtran = require('jpegtran-bin');
+const jpegtran = require('@dinamomx/jpegtran-bin');
 
 module.exports = opts => buf => {
 	opts = Object.assign({}, opts);
@@ -32,8 +32,8 @@ module.exports = opts => buf => {
 		input: buf,
 		bin: jpegtran,
 		args
-	}).catch(err => {
-		err.message = err.stderr || err.message;
-		throw err;
+	}).catch(error => {
+		error.message = error.stderr || error.message;
+		throw error;
 	});
 };
