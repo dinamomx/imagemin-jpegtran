@@ -1,6 +1,6 @@
 {
   "name": "@dinamomx/imagemin-jpegtran",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "description": "jpegtran imagemin plugin",
   "license": "MIT",
   "repository": "imagemin/imagemin-jpegtran",
@@ -46,7 +46,7 @@
     "optimize"
   ],
   "dependencies": {
-    "@dinamomx/jpegtran-bin": "0.0.0-development",
+    "@dinamomx/jpegtran-bin": "3.3.1",
     "exec-buffer": "^3.0.0",
     "is-jpg": "^2.0.0"
   },
